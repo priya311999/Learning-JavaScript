@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: brown;
+    color: white;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+#clock{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

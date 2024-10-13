@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    /* height: 80vh; */
+    /* border: 2px solid black; */
+
+
+}
+.container >P{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    font-family:cursive;
+}
+.boxes{
+    display: flex;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+}
+
+#grey{
+    background-color: grey;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#aqua{
+    background-color: aqua;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: cursive;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 16, 16);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:15px;
+}
+label{
+    background-color: rgb(18, 16, 16);
+    font-size: 25px;
+    font-weight: 500;
+}
+input{
+    padding: 10px;
+}
+form p{
+    background-color: rgb(18, 16, 16);
+    padding: 10px;
+}
